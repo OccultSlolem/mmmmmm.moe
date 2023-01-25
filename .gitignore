@@ -165,6 +165,15 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+### Firebase ###
+.idea
+**/node_modules/*
+**/.firebaserc
+
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/
+
 ### Node Patch ###
 # Serverless Webpack directories
 .webpack/
